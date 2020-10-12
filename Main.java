@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
     //opening//
@@ -73,16 +74,35 @@ class Main {
     }else{
     System.out.println("then choose again");
     }
-
-    //now more story then I'll get to choosing pokemon
-    System.out.println("Now with this information go and become the worlds best pokemon trainer ...");
-
-    for(int i = 1; i <= 3; i++)
-    {
-    System.out.println(1 + "");
-    }
+    System.out.println(" ");
 
 
+
+    //Saving
+    System.out.println("Now with this information go and become the worlds best pokemon trainer.");
+
+      for(int count = 1; count <= 3; count++)
+     {
+        System.out.println(count);
+     }
+    System.out.println("Saving...");
+
+
+
+
+    //Choosing pokemon this time ill use scanner
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Now it's time to choose your pokemon.");
+    System.out.print(" You have three choices Treeko, Torchic, or Mudkip. Which one will you  choose?");
+    String pokemon = scan.next();
+    System.out.println(" ");
+    System.out.println("So you have chosen " + pokemon + " ?");
+  
+
+
+
+
+    
 
 
 
