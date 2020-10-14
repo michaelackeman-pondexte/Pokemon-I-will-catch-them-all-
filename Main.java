@@ -35,10 +35,10 @@ class Main {
     }else if(maria){
     System.out.println("Maria");
     } 
-    else if(maria == guest){
-    System.out.println("Maria");
-    }else{
+    else if(maria || guest){
     System.out.println("Guest");
+    }else{
+    System.out.println(" Maria");
     }
     System.out.println("... Are you sure");
     if(true == true){
@@ -57,7 +57,7 @@ class Main {
     boolean John = false;//doing names will be difficult...
     boolean demetri = false;
     boolean Christy = true;
-    if(maria != phill){
+    if(maria && phill){
     System.out.println("oh its... uh ... Joe ... Jacob? ... Oh I mean Jhon");
 
     }else if(maria){
@@ -102,12 +102,12 @@ class Main {
     System.out.println("Is it true or false that you choose " + pokemon + " as your starting pokemon?");//if you type false nothing will make sense so please type true
     boolean trueFalse = scan.nextBoolean();
     System.out.println(" ");
-    System.out.println( trueFalse + ", No matter what you said you have choosen " + pokemon + " as your pokemon. If you want a different one close the game and start again");
+    System.out.println( trueFalse + ", No matter what you said you have choosen " + pokemon + " as your pokemon.  If you want a different pokemon, close the game and start again");
 
     System.out.println(" ");
     System.out.println("A pokemons progression in abilities, strength, and obedience all require a high bond between trainer and pokemon."); 
 
-    System.out.println("The max level of pokemon can reach is 100. meaning that your pokemon has   the strongest abilities, strentgh, and obedience.");
+    System.out.println("The max level a pokemon can reach is 100. meaning that your pokemon has   the strongest abilities, strentgh, and obedience.");
 
     System.out.println("The lowest level is 0  meaning your pokemon has no abilities, strength, or obdience.");
     System.out.println(" ");
