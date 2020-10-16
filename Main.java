@@ -7,6 +7,7 @@ class Main {
 
 
 
+
     //Pressing start
     System.out.println(" ");
     System.out.println("Press start ->");//Since I cant add images or music you have to use your imagination
@@ -22,6 +23,8 @@ class Main {
     System.out.println("- Here in the world of pokemon you can find and catch many pokemon.     There are hundreds of them out there... are you ready");
     System.out.println(" ");//for better code layout
     System.out.println("-----Choose your name-----");
+
+
 
 
 
@@ -47,6 +50,10 @@ class Main {
     System.out.println("then choose again");
     }
     System.out.println(" ");
+
+
+
+
 
 
    
@@ -75,6 +82,10 @@ class Main {
     System.out.println("then choose again");
     }
     System.out.println(" ");
+ 
+
+
+
 
 
 
@@ -149,7 +160,7 @@ class Main {
     
 
     // Comments and final thoughts
-    // I really enjoyed doing this it was fun and I really enjoyed "scanner." I wish for the name of the player and rival, that I used a scanner, because it would allow more customization. I didn't use a scanner though, because I had little to know information about it. Thats one problem the other one is I wish the text would appear slower be
+    // I really enjoyed doing this it was fun and I really enjoyed "scanner." I wish for the name of the player and rival, that I used a scanner, because it would allow more customization. I didn't use a scanner though, because I had little to know information about it. Thats one problem the other one is I wish the text would appear slower, because it just immediatly pops at the reader/veiwer. Thats all 
 
 
 
